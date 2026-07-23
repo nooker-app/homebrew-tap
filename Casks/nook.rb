@@ -1,6 +1,6 @@
 cask "nook" do
-  version "0.1.38"
-  sha256 "e5ebcb771fc1493139a0713df8989d4ca0ad0e93cc29b46eb8a312c5862e047f"
+  version "0.1.39"
+  sha256 "d87d60b1a89b72cb290b625426af76d3bdc804fa69f9c625dc8842dd9378af7c"
 
   url "https://github.com/selenehyun/nook/releases/download/v#{version}/Nook-#{version}.dmg"
   name "Nook"
@@ -29,7 +29,7 @@ cask "nook" do
     Right-click Nook in Applications and choose Open, or run:
       xattr -dr com.apple.quarantine "#{appdir}/Nook.app"
 
-    To skip that, install without quarantine:
-      brew install --cask --no-quarantine selenehyun/tap/nook
+    To skip that next time, install without quarantine:
+      HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask selenehyun/tap/nook
   CAVEAT
 end
