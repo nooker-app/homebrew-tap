@@ -2,10 +2,10 @@ cask "nook" do
   version "0.1.43"
   sha256 "d2c557df1141e9f46c3fcb37f5037c70f91522036338d7e7097890906b553e3f"
 
-  url "https://github.com/selenehyun/nook/releases/download/v#{version}/Nook-#{version}.dmg"
+  url "https://github.com/nooker-app/nook/releases/download/v#{version}/Nook-#{version}.dmg"
   name "Nook"
   desc "Native RSS reader that keeps your feeds in a plain folder"
-  homepage "https://github.com/selenehyun/nook"
+  homepage "https://github.com/nooker-app/nook"
 
   livecheck do
     url :url
@@ -30,6 +30,6 @@ cask "nook" do
       xattr -dr com.apple.quarantine "#{appdir}/Nook.app"
 
     To skip that next time, install without quarantine:
-      HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask selenehyun/tap/nook
+      HOMEBREW_CASK_OPTS="--no-quarantine" brew install --cask nooker-app/tap/nook
   CAVEAT
 end
