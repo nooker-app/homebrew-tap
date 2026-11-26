@@ -1,6 +1,6 @@
 cask "nook" do
-  version "0.1.77"
-  sha256 "151ca95d533fd44945e9e402cf351baea5e67b6877b5b7a20b9328e0c4a77cfa"
+  version "0.1.78"
+  sha256 "9f8f050dd8540a0b2330fb0f95daaaea66e069b182a4f668e8555905729d08fc"
 
   url "https://github.com/nooker-app/nook/releases/download/v#{version}/Nook-#{version}.dmg"
   name "Nook"
